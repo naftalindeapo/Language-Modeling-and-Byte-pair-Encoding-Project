@@ -27,7 +27,7 @@ In addition to using language model perplexity to compare similarities between t
 Table I below displays the trigrams and their probability with the two-character history ‘th’ for the English model.
 ![alt text](https://drive.google.com/uc?id=1N4mC47euB6cifQjAM_Fod5z1-gHh8Ltm) 
 
-### Comparing Language similarity using perpelexity
+### Comparing Language similarity using perplexity
 We used our trained models to calculate the cross-lingual perplexity measurements on the validation set and the results are shown below:
 |         | Afrikaans| Dutch    |English   | Xhosa    | Zulu      |
 |:--------|:---------|:---------|:---------|:---------|:----------|
@@ -42,7 +42,7 @@ We used our trained models to perform language identification on the test set an
 ![alt text](https://drive.google.com/uc?id=1hFHidPJWcLqiEySl9oOq56-LDohvTfcW) 
 
 ### BPE learning
-We applied the BPE algorithm to each training set for 100 merge iterations, and compute the overlap of the BPE subword vocabulary between each of the languages. The results are shown in Table III and Figure 2 below.
+We applied the BPE algorithm to each training set for 100 merge iterations and computed the overlap of the BPE subword vocabulary between each of the languages. The results are shown in Table III and Figure 2 below.
 <div>
     <img src="https://drive.google.com/uc?id=1kyQzzBliH1cLvyRYvQwZhVJbKybtfQCl" style="width: 48%; float: left;" /> 
     <img src="https://drive.google.com/uc?id=1qUtGTxs-ZwcTBLOnATuwBVeoXe-Kkarj" style="width: 40%; float: right;" />  
@@ -52,11 +52,14 @@ We applied the BPE algorithm to each training set for 100 merge iterations, and 
 To install the Minigrid library use pip install minigrid.  
 
 ### Dependencies
+- Python 3.x
 - Anaconda 3
-- Python 3.7-3.12
+- Jupyter Notebook
+- Visual Studio Code ipynb
+- Libraries: numpy, pandas, unicodedata, seaborn, collections, matplotlib, sklearn.
 
 ### License
-Refer to the [LICENSE](https://github.com/naftalindeapo/Optimal_Policy_Learning_in_the_Gridworld_Environment-A_Tabular_RL_Approach/blob/main/LICENSE).
+Refer to the [LICENSE](https://github.com/naftalindeapo/Language-Modeling-and-Byte-pair-Encoding-Project/blob/main/LICENSE).
 
 
 
