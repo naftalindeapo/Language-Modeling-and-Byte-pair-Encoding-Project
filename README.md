@@ -2,7 +2,7 @@
 Language identification, the task of automatically determining the language of a given text, plays a crucial role in various applications such as information retrieval, machine translation, and text classification. Accurate language identification is essential for processing multilingual data effectively and enabling language-specific analysis. In this assignment, we aim to develop a language identification system based on character-level trigram language models. We aim to accurately predict the language of a sentence by training language models on training data from five different languages: Afrikaans, Dutch, English, Xhosa, and Zulu.
 
 # Datasets
-The datasets used in this project were obtained from [Wikipedia](https://https://www.wikipedia.org) for five languages: Afrikaans, Dutch, English, Xhosa, and Zulu. The dataset contains training, validation, and test data. There is a separate training and validation set for each language. The training data is given in its original unprocessed form directly from the Wikipedia dumps. The validation data has been normalized so that the sentences match the form of the test. The test set has been formatted for the task of language identification.
+The datasets used in this project were obtained from [Wikipedia](https://www.wikipedia.org) for five languages: Afrikaans, Dutch, English, Xhosa, and Zulu. The dataset contains training, validation, and test data. There is a separate training and validation set for each language. The training data is given in its original unprocessed form directly from the Wikipedia dumps. The validation data has been normalized so that the sentences match the form of the test. The test set has been formatted for the task of language identification.
 
 # Language modelling
 
