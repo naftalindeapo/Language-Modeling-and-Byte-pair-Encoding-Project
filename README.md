@@ -1,2 +1,3 @@
-# Language-Modeling-and-Byte-pair-Encoding-Project
-This repository contains a notebook for a  project that focuses on training language models on data from multiple languages and evaluating their performance in language identification tasks. Additionally, BPE is used to explore subword tokenization and measure language similarity based on overlapping subword types.
+# Language Modeling and Byte-pair Encoding
+Language identification, the task of automatically determining the language of a given text, plays a crucial role in various applications such as information retrieval, machine translation, and text classification. Accurate language identification is essential for processing multilingual data effectively and enabling language-specific analysis. In this assignment, we aim to develop a language identification system based on character-level trigram language models. We aim to accurately predict the language of a sentence by training language models on training data from five different languages: Afrikaans, Dutch, English, Xhosa, and Zulu.
+
