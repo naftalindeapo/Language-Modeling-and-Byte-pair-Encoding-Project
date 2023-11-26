@@ -48,8 +48,7 @@ We applied the BPE algorithm to each training set for 100 merge iterations and c
     <img src="https://drive.google.com/uc?id=1qUtGTxs-ZwcTBLOnATuwBVeoXe-Kkarj" style="width: 40%; float: right;" />  
  </div>
 
-# Installation
-To install the Minigrid library use pip install minigrid.  
+# Running the code
 
 ### Dependencies
 - Python 3.x
